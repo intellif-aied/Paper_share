@@ -1,5 +1,6 @@
 > 论文：Ma et al., SkillClaw: Let Skills Evolve Collectively with Agentic Evolver, 2026  
-> 链接：https://arxiv.org/abs/2604.08377
+
+>论文地址：https://arxiv.org/abs/2604.08377
 
 > 分享重点：Skill 提取、Skill 进化及其实验证据
 
