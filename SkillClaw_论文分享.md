@@ -45,7 +45,7 @@ SkillClaw 面向多用户 Agent 生态，将分散的交互轨迹转化为共享
 3. **按技能分组的证据机制。** 会话按引用的技能分组后，同一个技能在不同用户、任务、环境下的表现差异天然形成对照实验，直接揭示技能在哪里有效、在哪里失效。无技能会话组则用来发现潜在的新技能缺口。
 4. **验证驱动的单调部署。** 候选技能更新在夜间同环境下与当前最佳版本对比验证，只有表现更优才被接纳部署，保证技能池单调不退化。
 
-![skillclaw框架图](image.png)
+![skillclaw框架图](https://raw.githubusercontent.com/intellif-aied/Paper_share/main/image.png)
 
 ## 3. 实现机制：从会话到技能进化的完整链路
 
@@ -200,7 +200,7 @@ Skill 文本发生变化并不能证明进化有效。论文在相同环境和�
 | 创意内容综合 | 11.57 | 21.80 | 21.80 | 21.80 | 21.80 | 21.80 | +10.23 | +88.41% |
 | 安全与对齐 | 24.00 | 24.00 | 24.00 | 24.00 | 32.00 | 32.00 | +8.00 | +33.33% |
 
-![SkillClaw 六轮用户侧性能曲线](assets/paper-share/table3-six-day-performance.png)
+![SkillClaw 六轮用户侧性能曲线](https://raw.githubusercontent.com/intellif-aied/Paper_share/main/table3-six-day-performance.png)
 
 > **图：SkillClaw 六轮用户侧性能变化。** 第 1 天为基线；第 2–6 天继承前一晚通过验证的最佳技能池。数据来源：Ma 等（2026），表 3。
 
